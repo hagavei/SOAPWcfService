@@ -13,6 +13,7 @@ namespace SOAPWcfServiceXacml30
     public class Constants
     {
         //
+        // 
         // Ensures consistency in the namespace declarations across services
         public const string Namespace = "urn:oasis:names:tc:xacml:3.0:core:schema:wd-17";
         public const string nsConst = "urn:oasis:names:tc:xacml:3.0:core:schema:wd-17";
