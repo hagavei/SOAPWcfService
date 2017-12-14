@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPWcfService", "SOAPWcfService\SOAPWcfService.csproj", "{FC3A50B0-4EB0-469C-942A-3F80FB4EA259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPWcfServiceXacml30", "SOAPWcfServiceXacml30\SOAPWcfServiceXacml30.csproj", "{DD095241-9799-448F-B28A-9397E072CBCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC3A50B0-4EB0-469C-942A-3F80FB4EA259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3A50B0-4EB0-469C-942A-3F80FB4EA259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3A50B0-4EB0-469C-942A-3F80FB4EA259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3A50B0-4EB0-469C-942A-3F80FB4EA259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD095241-9799-448F-B28A-9397E072CBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD095241-9799-448F-B28A-9397E072CBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD095241-9799-448F-B28A-9397E072CBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD095241-9799-448F-B28A-9397E072CBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

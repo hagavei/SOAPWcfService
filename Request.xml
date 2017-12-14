@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Request  ReturnPolicyIdList="true"
+    CombinedDecision="true"
+    xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17">
+
+  <Attributes Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject">
+    <Attribute AttributeId="urn:oasis:names:tc:xacml:1.0:subject:subject-id" IncludeInResult="true">
+      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">/DC=no/DC=test/DC=Ugradert/O=Local/OU=Local/CN=WebMethods_AMelding_FISB</AttributeValue>
+    </Attribute>
+  </Attributes>
+  <Attributes Category="urn:oasis:names:tc:xacml:3.0:attribute-category:resource">
+    <Attribute AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" IncludeInResult="true">
+      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">77772345</AttributeValue>
+    </Attribute>
+  </Attributes>
+  <Attributes Category="urn:oasis:names:tc:xacml:3.0:attribute-category:action">
+    <Attribute AttributeId="urn:oasis:names:tc:xacml:1.0:action:action-id" IncludeInResult="true">
+      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">write</AttributeValue>
+    </Attribute>
+  </Attributes>
+  <Attributes Category="urn:oasis:names:tc:xacml:3.0:attribute-category:environment">
+    <Attribute AttributeId="urn:oasis:names:tc:xacml:1.0:environment:environment-ip" IncludeInResult="true">
+      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://172.17.0.2:8443/AMeldingRcv</AttributeValue>
+    </Attribute>
+  </Attributes>
+</Request>
