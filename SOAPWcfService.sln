@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPWcfService", "SOAPWcfService\SOAPWcfService.csproj", "{FC3A50B0-4EB0-469C-942A-3F80FB4EA259}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPWcfServiceSysVacc", "SOAPWcfService\SOAPWcfServiceSysVacc.csproj", "{FC3A50B0-4EB0-469C-942A-3F80FB4EA259}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPWcfServiceXacml30", "SOAPWcfServiceXacml30\SOAPWcfServiceXacml30.csproj", "{DD095241-9799-448F-B28A-9397E072CBCD}"
 EndProject
