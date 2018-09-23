@@ -12,11 +12,15 @@ namespace SOAPWcfServiceXacml30
     /* SERVICE                       */
     /* ***************************** */
 
+
     [ServiceContract(Namespace = Constants.nsConst)]
     public interface IXacml30
     {
         [OperationContract, XmlSerializerFormat]
         void EmptyRequest(String str);
+
+        [OperationContract, XmlSerializerFormat]
+        void EmptyRequest2(String str);
 
         //[OperationContract]
         //ResponseMessage ReceiveXcaml30Test(RequestMessage Request);
