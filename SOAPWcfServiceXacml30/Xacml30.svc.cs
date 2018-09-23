@@ -101,5 +101,10 @@ namespace SOAPWcfServiceXacml30
 
         }
 
+        public void EmptyRequest4(String str)
+        {
+
+        }
+
     }
 }

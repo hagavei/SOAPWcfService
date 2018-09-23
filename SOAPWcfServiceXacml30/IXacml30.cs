@@ -25,6 +25,9 @@ namespace SOAPWcfServiceXacml30
         [OperationContract, XmlSerializerFormat]
         void EmptyRequest3(String str);
 
+        [OperationContract, XmlSerializerFormat]
+        void EmptyRequest4(String str);
+
         //[OperationContract]
         //ResponseMessage ReceiveXcaml30Test(RequestMessage Request);
 
